@@ -11,12 +11,13 @@ body {
     background-image: url(images/patt.png);
 }
 
-.conteiner {
+.container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
 }
+
 .row::after, .menu:after {
     content: "";
     display: block;
@@ -27,59 +28,72 @@ body {
     margin-left: -15px;
     margin-right: -15px;
 }
+
 .col-1 {
     width: 8.3333%;
 }
+
 .col-2 {
     width: 16.66667%;
 }
+
 .col-3 {
     width: 25%;
 }
+
 .col-4 {
     width: 33.33333%;
 }
+
 .col-6 {
     width: 50%;
-
 }
+
 .col-7 {
     width: 58.33333%;
 }
-.col-8{
+
+.col-8 {
     width: 66.6667%;
 }
-.col-9{
+
+.col-9 {
     width: 75%;
 }
+
 .col-12 {
     width: 100%;
 }
+
 [class*="col-"] {
     float: left;
     padding-left: 15px;
     padding-right: 15px;
 }
- .header {
+
+.header {
     background-color: rgba(255, 255, 255, 0.752);
     padding: 25px 0;
 
- }
- .logo {
+}
+
+.logo {
     margin-top: 7px;
- }
- .menu > li {
+}
+
+.menu > li {
     float: left;
     width: 25%;
     border-left: 1px solid #2c72b8;
     position: relative;
 }
- .menu li:last-child {
+
+.menu li:last-child {
     border-right: 1px solid #2c72b8;
 
-    }
- 
- .menu >li >a {
+}
+
+.menu > li > a {
     display: block;
     height: 50px;
     text-decoration: none;
@@ -87,203 +101,245 @@ body {
     font-size: 21px;
     text-align: center;
     line-height: 50px;
- }
+}
 
- .menu a:hover {
+.menu a:hover {
     background-color: #2c72b8;
     color: white;
- }
- .search {
+}
+
+.search {
     width: 200px;
     height: 40px;
     border: 1px solid #2c72b8;
-  
-  
-   
- }
- .search input {
+
+
+}
+
+.search input {
     width: 140px;
     height: 40px;
-  
+
     background-color: transparent;
     outline: none;
     border-color: transparent;
     color: #2c72b8;
- }
- 
- .form-search-header {
+}
+
+.form-search-header {
     border: 1px solid #2c72b8;
     height: 40px;
     margin-top: 5px;
-   
-  
- }
- .form-search-header input {
+
+
+}
+
+.form-search-header input {
     background-color: transparent;
     border: none;
     width: 140px;
     height: 30px;
     padding-left: 10px;
     margin-top: 4px;
- 
- 
-    }
-    .form-search-header input:focus{
-        outline: none;
-    }
-    .button {
+
+
+}
+
+.form-search-header input:focus {
+    outline: none;
+}
+
+.button {
     width: 30px;
     height: 30px;
     background-color: #2c72b8;
     float: right;
     margin-top: 4px;
     margin-right: 5px;
-    
-     }
-     .button img {
-        margin-left: 8px;
-        margin-top: 9px;
-     }
-     ::placeholder{
-        color: #2c72b8;
-     }
-     .cart-header {
-        width: 40px;
-        height: 40px;
-        background-color: white;
-        position: relative;
-        margin-top: 5px;
-     }
-     .product-count {
-        width: 20px;
-        height: 20px;
-        background-color: #2c72b8;
-        color: white;
-        border-radius: 10px;
-        font-size: 12px;
-        text-align: center;
-        line-height: 20px;
 
-        position: absolute;
-        top: -10px;
-        left: -10px;
+}
 
-     }
-     .cart-header img {
-        margin-left: 12px;
-        margin-top: 11px;
-     }
+.button img {
+    margin-left: 8px;
+    margin-top: 9px;
+}
 
-     .menu li:hover .sub-menu {
-        display: block;
-      
-        
-     }
-     .sub-menu {
-        display: none;
-        position: absolute;
-        
-        
-        }
-   
-        .sub-menu li {
-            width: 286px;
-        margin-left: -1px;
-        background-color: #2c72b8;
-        }
+::placeholder {
+    color: #2c72b8;
+}
 
-        .sub-menu a {
-            text-decoration: none;
-            color: white;
-            display: block;
-            text-align: left;
-            height: 40px;
-            line-height: 40px;
-            transition: all .3s;
-            font-size: 21px;
-            padding-left: 28px;
-        }
-        .sub-menu a:hover {
-            background-color: white;
-            color: #2c72b8;
-        }
-        .sub-menu li:hover ul{
-            display: block;
-        }
+.cart-header {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: relative;
+    margin-top: 5px;
+}
 
-        .slider {
-            height: 200px;
-            background-color: #0000006e;
-            text-align: center;
-            font-size: 60px;
-            color: white;
-            line-height: 400px;
-        }
-        .next:hover > a {
-            background-color: #2c72b8;
-            color: white;
-        }
-               
-        i {
-            border: solid black;
-            border-width: 0 3px 3px 0;
-            display: none;
-            padding: 3px;
-          }
+.product-count {
+    width: 20px;
+    height: 20px;
+    background-color: #2c72b8;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
 
-          .down {
-            transform: rotate(45deg);
-            -webkit-transform: rotate(45deg);}
+    position: absolute;
+    top: -10px;
+    left: -10px;
 
-        .product {
-            width: 270px;
-            height: 655px;
-            border: 1px solid white;
-        }
-        .product-img{
-            width: 270px;
-            height: 180px;
-            background-color: rgba(255, 255, 255, 0.75);
-            margin-left: -1px;
-            position: relative;
-            }
-            .product-img img {
-                position: absolute;
-                right: 50%;
-                top: 50%;
-                transform: translate(50%, -50%);
-            }
+}
+
+.cart-header img {
+    margin-left: 12px;
+    margin-top: 11px;
+}
+
+.menu li:hover .sub-menu {
+    display: block;
 
 
-        .zoom {
-       width: 30px;
-       height: 30px;
-       border: 1px solid #2c72b8;
-       position: absolute;
-       top: 10px;
-       right: 10px;
-       background-image: url(images/icon\ \(6\).png);
-       background-position: center;
-       background-repeat: no-repeat;
-        }
+}
 
-        .like {
-            width: 30px;
-            height: 30px;
-            border: 1px solid #2c72b8;
-            position: absolute;
-            top: 50px;
-            right: 10px;
-            background-image: url(images/icon\ \(7\).png);
-            background-position: center;
-            background-repeat: no-repeat;
-             }
-             .zoom:hover {
-                background-color: #2c72b8;
-                color: white;}
-                .like:hover {
-                    background-color: #2c72b8;
-                    color: white;}
+.sub-menu {
+    display: none;
+    position: absolute;
+
+
+}
+
+.sub-menu li {
+    width: 286px;
+    margin-left: -1px;
+    background-color: #2c72b8;
+}
+
+.sub-menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+    transition: all .3s;
+    font-size: 21px;
+    padding-left: 28px;
+}
+
+.sub-menu a:hover {
+    background-color: white;
+    color: #2c72b8;
+}
+
+.sub-menu li:hover ul {
+    display: block;
+}
+
+.slider {
+    height: 200px;
+    background-color: #0000006e;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    line-height: 400px;
+}
+
+.next:hover > a {
+    background-color: #2c72b8;
+    color: white;
+}
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: none;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.col-12 p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.756);
+    margin-bottom: 10px;
+    margin-top: 30px;;
+}
+
+.col-8 h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.sort {
+    width: 270px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: #2c72b8;
+    color: white;
+    font-size: 21px;
+}
+
+.product {
+    width: 270px;
+    height: 655px;
+    border: 1px solid white;
+    margin-top: 30px;
+}
+
+.product-img {
+    width: 270px;
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-left: -1px;
+    position: relative;
+}
+
+.product-img img {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+.zoom {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #2c72b8;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-image: url(images/icon\ \(6\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.like {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #2c72b8;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-image: url(images/icon\ \(7\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.zoom:hover {
+    background-color: #2c72b8;
+    color: white;
+}
+
+.like:hover {
+    background-color: #2c72b8;
+    color: white;
+}
 
 .product-title {
     font-weight: 700;
@@ -292,13 +348,14 @@ body {
     margin-top: 15px;
     margin-left: 20px;
 }
-.product-description{
+
+.product-description {
     font-size: 21px;
     color: white;
     margin-top: 15px;
     margin-left: 20px;
-
 }
+
 .product-features {
     font-size: 21px;
     color: white;
@@ -306,49 +363,51 @@ body {
     margin-left: 20px;
 
 }
+
 .product-features span {
     font-weight: bold;
-}       
+}
+
 .product-price {
     font-weight: 700;
-    font-size: 34px;
+    font-size: 45px;
     color: white;
     margin-top: 30px;
     margin-bottom: 15px;
-    margin-left: 20px;
     text-align: center;
 
-}   
+}
+
 .product-price sup {
     vertical-align: top;
     font-size: 50%;
-}      
-.product-button{
+}
+
+.product-button {
     background-color: #2c72b8;
     border: 1px solid white;
     color: white;
-    padding: 16px 32px;
+    padding: 16px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     width: 210px;
     height: 50px;
     margin-top: 15px;
     margin-left: 30px;
-   
-    
 }
+
 .product-button-cart {
     background-color: #2c72b8;
     border: 1px solid white;
     color: white;
-    padding: 16px 32px;
+    padding: 16px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     width: 210px;
     height: 50px;
@@ -356,6 +415,100 @@ body {
     margin-left: 30px;
     background-image: url(images/icon\ \(2\).png);
     background-repeat: no-repeat;
-    background-position-x: 175px;
+    background-position-x: 170px;
     background-position-y: center;
+}
+
+.product-button:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #2c72b8;
+}
+
+.product-button-cart:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #2c72b8;
+}
+
+.filter {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    width: 270px;
+    height: 855px;
+    padding: 30px 15px;
+    border-right: 1px solid white;
+}
+
+
+label::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    left: 30px;
+}
+
+.filter label {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"]:checked + label::before {
+    background-color: white;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.show-more {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 21px;
+}
+
+.filter-submit {
+    width: 210px;
+    height: 50px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    width: 100%;
+    border: 1px solid #fff;
+    background: #2c72b8;
+    color: #fff;
+    font-weight: bold;
+}
+
+.filter-title {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.device-type label {
+    margin-top: 20px;
+}
+
+.device-type {
+    margin-bottom: 75px;
+}
+
+.load-more {
+    text-align: center;
+    height: 155px;
+    line-height: 155px;
+    color: white;
+    font-size: 40px;
+    
+}
+.footer {
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    font-size: 21px;
+    color: #2c72b8;
+    line-height: 100px;
 }
