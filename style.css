@@ -482,6 +482,10 @@ input[type="checkbox"] {
     color: #fff;
     font-weight: bold;
 }
+.filter-submit:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #2c72b8; 
+}
 
 .filter-title {
     font-size: 17px;
